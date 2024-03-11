@@ -1,0 +1,16 @@
+module.exports = {
+	name: '',
+    description: '',
+    aliases: [],
+    args: true,
+    usage: '<>',
+    cooldown: 1,
+    guildOnly: true,
+    permissions: [],
+	execute(message, args) {
+        if (!this.permissions.every(permission => message.member.hasPermission(permission))) {
+            message.react('❌');
+            return;
+        }
+    },
+}
