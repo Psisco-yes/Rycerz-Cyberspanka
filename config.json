@@ -1,0 +1,10 @@
+{
+    "prefix": ";",
+    "token": "ur token here",
+    "avatarUrl": "",
+    "serverId": "ur server id here",
+    "startSh": "./",
+    "startMc": "./",
+    "updateMc": "./",
+    "botId": "ur bot id here"
+}

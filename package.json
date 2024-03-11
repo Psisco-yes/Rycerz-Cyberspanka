@@ -1,0 +1,11 @@
+{
+  "name": "rycerz-cyberspanka",
+  "version": "1.0.0",
+  "description": "Bocisko",
+  "main": "botek.js",
+  "author": "Psisco",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
